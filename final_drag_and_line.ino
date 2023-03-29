@@ -28,8 +28,7 @@ const int trigger = 12; // trigger for sensor LEDs
 
 // Inputs from among us susi baka
 
-int switchvoltage =
-    0; // analogue value coming back from reading function or 4 way switch
+int switchvoltage = 0; // analogue value coming back from reading function or 4 way switch
 
 int fnswvalue = 0; // value (in range 0 to 16) of 4 way function switch
 
@@ -323,9 +322,7 @@ void phototest() {
 
   Serial.print(" RF ");
 
-  Serial.print(rfrontsens); // dun dun dun dun dun dun dun dun dun dun dun dun
-                            // dun dun dun dun dun dun dun dun dun dun dun dun
-                            // dun dun dun dun dun dun
+  Serial.print(rfrontsens); // dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun dun
 
   Serial.print(" RS ");
 
